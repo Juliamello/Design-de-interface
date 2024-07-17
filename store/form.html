@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+        <title>X Store - Form</title>
+</head>
+<body>
+
+    <header class="menu-header">        
+        <img src="./fotos/icon.jpg" alt="" width="10%" />
+         
+         <div>       
+             <a href="index.html" class="botao-menu">Home</a>
+             <a href="produtos.html" class="botao-menu">Produtos</a>       
+             <a href="form.html" class ="botao-menu">Preencha o formulario</a>           
+         </div>
+         
+         <div>       
+                 <h1 class="display-4 font-italic">X Store</h1>
+                 <p class="lead my-3"><strong>Você se encontra aqui!</strong></p>            
+         </div>
+ 
+     </header>
+
+       <main>    
+        <section class="content">
+            <h2>Formulário de Contato</h2>
+            <form>
+                <fieldset>
+                    <legend>Informações Pessoais</legend>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="phone">Telefone:</label>
+                    <input type="tel" id="phone" name="phone">
+                    <label for="birthdate">Data de Nascimento:</label>
+                    <input type="date" id="birthdate" name="birthdate">
+                    <label for="age">Idade:</label>
+                    <input type="number" id="age" name="age">
+                    <label for="clientType">Tipo de cliente</label>
+                    <select id="clientType" name="clientType">
+                        <option value="pf">Pessoa Física</option>
+                        <option value="pj">Pessoa Jurídica</option>
+                    </select>
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </section>
+        </main>
+
+
+       <footer>
+        <div>
+            <p class="infos-footer">
+            <b> R. qualquer  910, Rio Grande - RS</b>
+            </p>
+            <p class="infos-footer"><b>algum_email@gmail.com</b></p>
+            <p class="infos-footer"><b> (53)99999-9999</b></p>
+          </div>
+          <div class="plataformas">
+            <p><b>Outras plataformas</b></p>
+            <img src="./fotos/icon_insta.png" alt="instagram" width="7%"/>
+            <img src="./fotos/icon_fb.png" alt="twitter" width="7%" />
+          </div>
+       </footer>
+</body>
+</html>
