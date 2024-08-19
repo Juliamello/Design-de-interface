@@ -11,7 +11,7 @@ body {
 }
 
 .menu-header {
-  background-color: rgb(38, 65, 35); /* Cor do menu */
+  background-color: rgb(38, 65, 35);
   color: white;
   padding: 1rem;
   display: flex;
@@ -24,21 +24,21 @@ body {
 }
 
 .menu-header img {
-  width: 50px; /* Ajustado para melhor visualização do logo */
+  width: 50px; 
 }
 
 .menu-header .botao-menu {
-  color: white; /* Cor dos links do menu */
+  color: white; /*links menu */
   padding: 10px;
   text-decoration: none;
 }
 
 .menu-header .botao-menu:hover {
-  background-color: rgba(255, 255, 255, 0.1); /* Efeito hover para os links */
+  background-color: rgba(255, 255, 255, 0.1); /*links*/
 }
 
 main {
-  padding-top: 80px; /* Ajustado conforme a altura do menu fixo */
+  padding-top: 80px; 
 }
 
 .introducao {
@@ -107,7 +107,7 @@ footer {
 }
 
 .social-icon:hover {
-  transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+  transform: scale(1.1); /*zoom mouse*/
 }
 
 form fieldset {
